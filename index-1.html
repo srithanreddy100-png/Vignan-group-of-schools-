@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Vignan Group of Schools, Yadadri Bhongir">
+<title>VIGNAN GROUP OF SCHOOLS</title>
+<style>
+:root{--navy:#102b55;--blue:#1769aa;--gold:#f5bd45;--ink:#1c2b3a;--paper:#f5f8fc}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+header{background:linear-gradient(120deg,#102b55,#1769aa);color:white;padding:18px 5%;display:flex;align-items:center;gap:15px}
+.crest{width:58px;height:58px;border:3px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-weight:800;color:var(--gold);font-size:19px;flex-shrink:0}
+.brand h1{font-size:clamp(19px,3vw,30px);margin:0;letter-spacing:1px}.brand p{margin:2px 0 0;color:#e4efff}
+nav{position:sticky;top:0;z-index:10;background:#fff;box-shadow:0 3px 12px #102b5520;display:flex;overflow-x:auto;white-space:nowrap;padding:0 3%;scrollbar-width:thin}
+nav a{padding:15px 17px;text-decoration:none;color:var(--navy);font-weight:700;display:inline-block}
+nav a:hover{background:#eaf3ff;color:var(--blue)}
+.hero{min-height:390px;padding:70px 7%;display:flex;align-items:center;color:white;background:linear-gradient(90deg,#102b55ed,#1769aa99),linear-gradient(135deg,#6c9dc7,#d8e9f8)}
+.hero-inner{max-width:760px}.hero h2{font-size:clamp(32px,5vw,55px);line-height:1.1;margin:0 0 15px}.hero p{font-size:18px;max-width:650px}
+.btn{display:inline-block;background:var(--gold);color:#182b43;text-decoration:none;font-weight:800;padding:12px 20px;border-radius:7px;margin:8px 8px 0 0}
+section{padding:55px 6%;scroll-margin-top:65px}.section-title{text-align:center;color:var(--navy);font-size:30px;margin:0 0 10px}.intro{text-align:center;max-width:760px;margin:0 auto 28px;color:#536477}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:white;border-radius:14px;padding:23px;box-shadow:0 5px 20px #102b5510;border:1px solid #e5edf6}
+.card h3{color:var(--blue);margin:0 0 8px}.symbol{font-size:30px;margin-bottom:8px}
+.alt{background:#eaf2fb}
+.founders{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;max-width:800px;margin:auto}
+.person{text-align:center}.photo-placeholder{height:210px;border-radius:12px;background:linear-gradient(135deg,#dbe8f5,#a9c5df);display:grid;place-items:center;color:#284b70;font-weight:bold;border:2px dashed #7e9dbd;padding:15px}
+.gallery .photo-placeholder{height:180px}
+.notice{border-left:5px solid var(--gold);background:white;padding:16px 20px;border-radius:8px;margin:12px auto;max-width:850px}
+.contact a{color:var(--blue);font-weight:700}
+footer{background:var(--navy);color:white;text-align:center;padding:25px}
+.small{font-size:13px;color:#6c7c8d}
+@media(max-width:600px){header{padding:14px 4%}.hero{padding:55px 6%;min-height:340px}section{padding:42px 5%}nav a{padding:13px 12px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="crest">VGS</div>
+  <div class="brand"><h1>VIGNAN GROUP OF SCHOOLS</h1><p>Yadadri Bhongir</p></div>
+</header>
+<nav aria-label="Main navigation">
+  <a href="#home">Home</a><a href="#about">About</a><a href="#founders">Founders</a><a href="#academics">Academics</a><a href="#facilities">Facilities</a><a href="#exams">Exams</a><a href="#notices">Notice Board</a><a href="#gallery">Gallery</a><a href="#admission">Admission</a><a href="#contact">Contact</a>
+</nav>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+  <h2>Learn Today. Lead Tomorrow.</h2>
+  <p>Welcome to Vignan Group of Schools — supporting students from Nursery to Class 10 with learning, curiosity and strong foundations.</p>
+  <a class="btn" href="#about">Explore Our School</a><a class="btn" href="#contact">Contact Us</a>
+</div></section>
+<section id="about"><h2 class="section-title">About Our School</h2>
+<p class="intro">Vignan group of schools is a great school established by the great man Dr. Pagidala Jalendhar Reddy and Pagidala Purendhar Reddy.</p>
+<div class="grid"><article class="card"><div class="symbol">🎓</div><h3>Our Classes</h3><p>Nursery to 10th class.</p></article><article class="card"><div class="symbol">🕗</div><h3>School Timings</h3><p>8:00 AM to 5:00 PM.</p></article><article class="card"><div class="symbol">📍</div><h3>Our Location</h3><p>Yadadri Bhongir, Telangana.</p></article></div>
+</section>
+<section class="alt" id="founders"><h2 class="section-title">Our Founders</h2><p class="intro">The founders of Vignan Group of Schools.</p>
+<div class="founders"><article class="card person"><div class="photo-placeholder">Add founder photograph here</div><h3>Dr. Pagidala Jalendhar Reddy</h3></article><article class="card person"><div class="photo-placeholder">Add founder photograph here</div><h3>Pagidala Purendhar Reddy</h3></article></div>
+</section>
+<section id="academics"><h2 class="section-title">Academics</h2><p class="intro">A learning journey from early education through secondary school.</p>
+<div class="grid"><article class="card"><h3>Nursery & Kindergarten</h3><p>Early learning and foundational skills.</p></article><article class="card"><h3>Primary Classes</h3><p>Building strong basics and curiosity.</p></article><article class="card"><h3>Secondary Classes</h3><p>Supporting students through Class 10.</p></article></div></section>
+<section class="alt" id="facilities"><h2 class="section-title">School Facilities</h2><p class="intro">Facilities that support classroom learning and practical exploration.</p>
+<div class="grid"><article class="card"><div class="symbol">💻</div><h3>Computer Lab</h3><p>Technology learning and computer practice.</p></article><article class="card"><div class="symbol">⚗️</div><h3>Chemical Lab</h3><p>Practical science learning.</p></article><article class="card"><div class="symbol">⚽</div><h3>Playground</h3><p>Space for games and physical activity.</p></article></div></section>
+<section id="exams"><h2 class="section-title">Examinations & Foundation</h2><div class="grid"><article class="card"><h3>Monthly Exams</h3><p>Examinations are conducted every month.</p></article><article class="card"><h3>IIT & NEET Foundation</h3><p>IIT and NEET Foundation programmes are available. Foundation exams are conducted every week.</p></article></div></section>
+<section class="alt" id="notices"><h2 class="section-title">Notice Board</h2><p class="intro">School announcements and updates.</p><div class="notice"><strong>School information</strong><br>For current notices, please contact the school office.</div></section>
+<section id="gallery" class="gallery"><h2 class="section-title">Photo Gallery</h2><p class="intro">School and campus photographs can be added here.</p><div class="grid"><div class="photo-placeholder">Add campus photograph</div><div class="photo-placeholder">Add school activity photograph</div><div class="photo-placeholder">Add classroom photograph</div></div></section>
+<section class="alt" id="admission"><h2 class="section-title">Admission Enquiry</h2><p class="intro">For admission details, please contact the school directly by phone or email.</p><div class="card" style="max-width:650px;margin:auto;text-align:center"><h3>Contact the School Office</h3><p>Phone: 9247772064 / 9247516620</p><p>Email: vignan.info@gmail.com</p><p class="small">This website does not collect or store student information online.</p></div></section>
+<section id="contact" class="contact"><h2 class="section-title">Contact Us</h2><p class="intro">We welcome your enquiries.</p><div class="grid"><article class="card"><h3>Phone</h3><p><a href="tel:9247772064">9247772064</a><br><a href="tel:9247516620">9247516620</a></p></article><article class="card"><h3>Email</h3><p><a href="mailto:vignan.info@gmail.com">vignan.info@gmail.com</a></p></article><article class="card"><h3>Address</h3><p>Yadadri Bhongir, Telangana, India</p></article></div></section>
+</main>
+<footer><strong>VIGNAN GROUP OF SCHOOLS</strong><br>Yadadri Bhongir<br><span class="small" style="color:#d7e5f5">© 2026 Vignan Group of Schools. All rights reserved.</span></footer>
+</body>
+</html>
